@@ -95,12 +95,18 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## LEAVE ME A STAR
 
 ## BUY A COFFEE
-EVM: ```
+EVM: 
+```
 0x3DCf20ff09dbCb97C3b14CD5C3b9963c4416915a
+
 ```
-BTC: ```
+BTC: 
+```
 32ksT1FnGXdF7VF8rcYhoU6ohTBDXzkwBr
+
 ```
-TRON: ```
+TRON: 
+```
 TSpp1HPNkyvtqzBZDy1QVm9t1oFxe9hZuB
+
 ```
