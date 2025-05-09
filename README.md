@@ -36,6 +36,8 @@ This script is a command-line tool for interacting with NFT contracts, designed 
 
     Replace `YOUR_*_RPC_URL` with the actual RPC URLs for the respective networks. You can obtain these URLs from services like Infura, Alchemy, or QuickNode.
 
+    **Important Security Note:** Be extremely cautious about storing your private key or other sensitive information directly in environment variables or in your code. It is recommended to use secure methods for managing sensitive information, such as a dedicated secrets management system. Ensure that your `.env` file is properly secured and is NOT committed to version control (e.g., by adding it to your `.gitignore` file).
+
 2.  **Install Dependencies:**
 
     Run the following command in the project directory to install the required dependencies:
@@ -93,6 +95,12 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## LEAVE ME A STAR
 
 ## BUY A COFFEE
-EVM: ```0x3DCf20ff09dbCb97C3b14CD5C3b9963c4416915a```
-BTC: ```32ksT1FnGXdF7VF8rcYhoU6ohTBDXzkwBr```
-TRON: ```TSpp1HPNkyvtqzBZDy1QVm9t1oFxe9hZuB```
+EVM: ```
+0x3DCf20ff09dbCb97C3b14CD5C3b9963c4416915a
+```
+BTC: ```
+32ksT1FnGXdF7VF8rcYhoU6ohTBDXzkwBr
+```
+TRON: ```
+TSpp1HPNkyvtqzBZDy1QVm9t1oFxe9hZuB
+```
