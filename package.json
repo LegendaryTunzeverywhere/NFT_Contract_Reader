@@ -1,7 +1,50 @@
 {
+  "name": "nft_contract_reader",
+  "version": "1.0.0",
+  "description": "This script is a command-line tool for interacting with NFT contracts, designed to handle token ID validation and metadata retrieval. It supports both ERC-721 and ERC-1155 contracts and can connect to various Ethereum networks.",
+  "main": "ipfs.js",
   "dependencies": {
     "dotenv": "^16.5.0",
     "ethers": "^6.14.0",
-    "node-fetch": "^3.3.2"
-  }
+    "nft_contract_reader": "^1.0.0",
+    "node-fetch": "^3.3.2",
+    "web3": "^4.16.0"
+  },
+  "scripts": {
+    "start": "node ipfs.js",
+    "test": "node test.js"
+  },
+  "bin": {
+    "nft_contract_reader": "./ipfs.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "type": "module",
+  "private": false,
+  "files": [
+    "ipfs.js",
+    "test.js",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LegendaryTunzeverywhere/NFT_Contract_Reader"
+  },
+  "keywords": [
+    "npm",
+    "tea.xyz",
+    "ipfs",
+    "nft",
+    "erc721",
+    "erc1155",
+    "ethereum",
+    "web3"
+  ],
+  "author": "Legendarytunzeverywhere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LegendaryTunzeverywhere/NFT_Contract_Reader/issues"
+  },
+  "homepage": "https://github.com/LegendaryTunzeverywhere/NFT_Contract_Reader#readme"
 }
