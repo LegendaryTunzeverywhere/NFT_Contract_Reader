@@ -5,11 +5,11 @@
  * handling for contracts that require specific token ID formats.
  */
 
-const fetch = require('node-fetch');
-const fs = require('fs');
-const readline = require('readline');
-const { ethers } = require('ethers');
-require('dotenv').config();
+import fetch from 'node-fetch';
+import * as fs from 'fs';
+import * as readline from 'readline';
+import { ethers } from 'ethers';
+import 'dotenv/config';
 
 // Create readline interface
 const rl = readline.createInterface({
